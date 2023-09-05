@@ -4,15 +4,17 @@
   "description": "Code practice from the course \"Fundamentos de NodeJS\" from Platzi",
   "main": "index.js",
   "scripts": {
-    "start":"gulp",
+    "start": "gulp",
     "build": "gulp build",
-    "serve": "gulp serve"
+    "serve": "gulp serve",
+    "electron-app": "electron ./herramientas/electron/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "electron": "^26.1.0",
     "gulp": "^4.0.2",
     "gulp-server-livereload": "^1.9.2",
     "lodash": "^4.17.21",
